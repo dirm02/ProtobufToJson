@@ -17,7 +17,7 @@ A Python script to convert STM GTFS-RT protobuf data to JSON format.
 ## Output
 
 The script will:
-- Fetch vehicle position data from the STM API
+- Fetch vehicle position data from Any API
 - Convert the protobuf data to JSON
 - Save the result to `vehicle_positions.json`
 - Display a sample of the data in the terminal
