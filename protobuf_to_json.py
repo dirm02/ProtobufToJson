@@ -8,7 +8,7 @@ def fetch_and_convert():
     url = "https://api.stm.info/pub/od/gtfs-rt/ic/v2/vehiclePositions"
     headers = {
         "accept": "application/x-protobuf",
-        "apiKey": "l7e72eee36d2534b11b517cb23cb103394"
+        "apiKey": "your API key"
     }
     
     try:
