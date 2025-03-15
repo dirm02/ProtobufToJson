@@ -5,7 +5,7 @@ from google.transit import gtfs_realtime_pb2
 
 def fetch_and_convert():
     # API endpoint and key
-    url = "https://api.stm.info/pub/od/gtfs-rt/ic/v2/vehiclePositions"
+    url = "yourURL/gtfs-rt/ic/v2/vehiclePositions"
     headers = {
         "accept": "application/x-protobuf",
         "apiKey": "your API key"
